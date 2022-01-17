@@ -1,0 +1,25 @@
+{
+    "env": "development",
+    "dbConfig": {
+        "host": "mongo",
+        "database": "homeinDb",
+        "port": 27017,
+        "user":"mongo",
+        "password":"mongo"
+    },
+    "mqttConfig": {
+        "host": "mosquitto",
+        "username": "homein",
+        "password": "abc123",
+        "port": 8883
+    },
+    "secretKey": "secretKey",
+    "log": {
+        "format": "dev",
+        "dir": "../logs"
+    },
+    "cors": {
+        "origin": true,
+        "credentials": true
+    }
+}
